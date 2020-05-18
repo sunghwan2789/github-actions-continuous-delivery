@@ -16,7 +16,7 @@
 # AWS S3 Bucket for package and deploy #
 ########################################
 # NOTE: This bucket must exist before the GitHub Action, and match the name of your S3 bucket on Amazon
-s3_bucket: github-sam-test
+s3_bucket: sunghwan2789-github-actions-continuous-delivery
 
 ##################################
 # AWS Cloud Formation Stack name #
@@ -40,4 +40,4 @@ sam_template: sam-template.yml
 ################################
 # Default region is: us-west-2
 # if not provided below
-region: us-west-2
+region: ap-northeast-2
